@@ -1,0 +1,27 @@
+{
+    "plugins": [
+        [
+            "module:react-native-dotenv"
+        ],
+        [
+            "module-resolver",
+            {
+                "cwd": "babelrc",
+                "root": [
+                    "./src"
+                ],
+                "extensions": [".ios.js", ".android.js", ".js", ".json", ".jsx", ".es", ".es6", ".mjs"],
+                "alias": {
+                    "screens": "./src/screens",
+                    "stacks": "./src/stacks",
+                    "components": "./src/components",
+                    "assets": "./src/assets",
+                    "utils": "./src/utils",
+                    "state": "./src/state",
+                    "navigations": "./src/navigations",
+                    "underscore": "lodash"
+                }
+            }
+        ]
+    ]
+}
