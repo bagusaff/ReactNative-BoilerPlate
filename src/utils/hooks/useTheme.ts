@@ -23,6 +23,7 @@ export default function () {
     let darkVariables = {};
     let partialDarkTheme = {};
 
+    console.log('Current Theme', currentTheme)
     if (currentTheme !== 'default') {
         const {
             Variables,
@@ -43,6 +44,7 @@ export default function () {
             partialDarkTheme = darkThemeConfig;
         }
     }
+    console.log('Theme Variables', variables, darkVariables)
     const themeVariables = mergeVariables(variables, darkVariables);
     const fonts = Fonts(themeVariables);
     const images = Images(themeVariables);

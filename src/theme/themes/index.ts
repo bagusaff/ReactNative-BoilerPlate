@@ -1,7 +1,7 @@
 import * as default_dark from './default_dark';
-import * as green_theme from './green';
+import * as light from './light';
 
 export default {
   default_dark,
-  green_theme
+  light
 };

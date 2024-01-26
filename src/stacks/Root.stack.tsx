@@ -11,6 +11,7 @@ import { AUTH_STACK, MAIN_NAVIGATION, SPLASH_SCREEN } from 'utils/routesConstant
 import { SafeAreaView } from 'react-native';
 import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native';
 import useTheme from 'utils/hooks/useTheme';
+import PipScreen from 'screens/PipScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,7 @@ const RootStack = () => {
                     <Stack.Screen name={AUTH_STACK} component={AuthStack} />
                     <Stack.Screen name={MAIN_NAVIGATION} component={BottomTabNavigation} />
                 </Stack.Navigator>
+                <PipScreen />
             </NavigationContainer>
         </SafeAreaView>
     );

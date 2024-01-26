@@ -8,19 +8,19 @@ export default function ({ FontSize, Colors }: ThemeVariables) {
     return StyleSheet.create({
         textTiny: {
             fontSize: FontSize.tiny,
-            color: Colors.textGray400,
+            color: Colors.textPrimary,
         },
         textSmall: {
             fontSize: FontSize.small,
-            color: Colors.textGray400,
+            color: Colors.textPrimary,
         },
         textRegular: {
             fontSize: FontSize.regular,
-            color: Colors.textGray400,
+            color: Colors.textPrimary,
         },
         textLarge: {
             fontSize: FontSize.large,
-            color: Colors.textGray400,
+            color: Colors.textPrimary,
         },
         textBold: {
             fontWeight: 'bold',
@@ -31,17 +31,17 @@ export default function ({ FontSize, Colors }: ThemeVariables) {
         titleSmall: {
             fontSize: FontSize.small * 1.5,
             fontWeight: 'bold',
-            color: Colors.textGray800,
+            color: Colors.textPrimary,
         },
         titleRegular: {
             fontSize: FontSize.regular * 2,
             fontWeight: 'bold',
-            color: Colors.textGray800,
+            color: Colors.textPrimary,
         },
         titleLarge: {
             fontSize: FontSize.large * 2,
             fontWeight: 'bold',
-            color: Colors.textGray800,
+            color: Colors.textPrimary,
         },
         textCenter: {
             textAlign: 'center',
@@ -56,7 +56,7 @@ export default function ({ FontSize, Colors }: ThemeVariables) {
             textAlign: 'right',
         },
         textError: {
-            color: Colors.error,
+            color: Colors.danger,
         },
         textSuccess: {
             color: Colors.success,
@@ -64,8 +64,8 @@ export default function ({ FontSize, Colors }: ThemeVariables) {
         textPrimary: {
             color: Colors.primary,
         },
-        textLight: {
-            color: Colors.textGray200,
+        textSecondary: {
+            color: Colors.secondary,
         },
         textLobster: {
             fontFamily: 'lobster',

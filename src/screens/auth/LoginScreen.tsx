@@ -32,9 +32,6 @@ const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'L
     const handleChangeDefault = () => {
         dispatch(changeTheme({ theme: 'default', darkMode: false }));
     }
-    const handleChangeGreen = () => {
-        dispatch(changeTheme({ theme: 'green_theme', darkMode: false }));
-    }
     return (
         <Container>
             <TouchableOpacity onPress={handleChangeDarkMode}>
@@ -42,9 +39,6 @@ const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'L
             </TouchableOpacity>
             <TouchableOpacity onPress={handleChangeDefault}>
                 <Text style={[Fonts.textBold, Fonts.textCenter, Fonts.textSmall]}>Default Theme</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={handleChangeGreen}>
-                <Text style={[Fonts.textBold, Fonts.textCenter, Fonts.textSmall]}>Green Theme</Text>
             </TouchableOpacity>
         </Container>
     )

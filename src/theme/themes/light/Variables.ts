@@ -1,13 +1,13 @@
 import { ThemeNavigationColors } from 'types/theme';
 
 export const Colors = {
-  primary: '#1F2937',
+  primary: '#fff',
   secondary: '#828C96',
-  background: '#19232D',
-  border: '#1C1F2B',
+  background: '#F5F7F9',
+  border: '#EDF1F7',
   blue: '#2F80ED',
   white: '#fff',
-  textPrimary: '#F2F3F4',
+  textPrimary: '#252525',
   icon: '#445677',
   info: '#1573FE',
   infoBackground: 'rgba(21,115,254,0.15)',
@@ -21,8 +21,8 @@ export const Colors = {
 
 export const NavigationColors: Partial<ThemeNavigationColors> = {
   primary: Colors.primary,
-  background: '#1B1A23',
-  card: '#1B1A23',
+  background: Colors.primary,
+  card: '#2F80ED',
 };
 
 export default {
