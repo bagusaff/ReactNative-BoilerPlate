@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.growstudiov2"
+    namespace "com.superink.onepassproject"
     defaultConfig {
-        applicationId "com.growstudiov2"
+        applicationId "com.superink.onepassproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

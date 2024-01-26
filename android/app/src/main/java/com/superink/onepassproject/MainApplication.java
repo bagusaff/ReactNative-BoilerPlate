@@ -1,4 +1,4 @@
-package com.growstudiov2;
+package com.superink.onepassproject;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
