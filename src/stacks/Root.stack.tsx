@@ -1,15 +1,15 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
+import { SafeAreaView } from 'react-native';
+import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native';
 
 //File Imports
 import AuthStack from './Auth.stack';
-import BottomTabNavigation from 'navigation/BottomNavigation';
 import SplashScreen from 'screens/SplashScreen';
+import DrawerNavigation from 'navigation/DrawerNavigation';
 
 //Utils
 import { AUTH_STACK, MAIN_NAVIGATION, SPLASH_SCREEN } from 'utils/routesConstant';
-import { SafeAreaView } from 'react-native';
-import { NavigationContainer, useNavigationContainerRef } from '@react-navigation/native';
 import useTheme from 'utils/hooks/useTheme';
 import PipScreen from 'screens/PipScreen';
 
@@ -28,9 +28,9 @@ const RootStack = () => {
                     screenOptions={{ headerShown: false }}>
                     <Stack.Screen name={SPLASH_SCREEN} component={SplashScreen} />
                     <Stack.Screen name={AUTH_STACK} component={AuthStack} />
-                    <Stack.Screen name={MAIN_NAVIGATION} component={BottomTabNavigation} />
+                    <Stack.Screen name={MAIN_NAVIGATION} component={DrawerNavigation} />
                 </Stack.Navigator>
-                <PipScreen />
+                {/* <PipScreen /> */}
             </NavigationContainer>
         </SafeAreaView>
     );

@@ -2,7 +2,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 
 // File Imports
-import Home from 'screens/home/HomeScreen';
+import HomeScreen from 'screens/home/HomeScreen';
 
 //Utils
 import { HOME } from 'utils/routesConstant';
@@ -14,7 +14,7 @@ const HomeStack = () => {
         <Stack.Navigator
             screenOptions={{ headerShown: false }}
             initialRouteName={HOME}>
-            <Stack.Screen component={Home} name={HOME} />
+            <Stack.Screen component={HomeScreen} name={HOME} />
         </Stack.Navigator>
     )
 }

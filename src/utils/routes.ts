@@ -17,13 +17,15 @@ export type RootStackParams = {
      * Home
      * 
      */
-
+    HomeScreen: any | undefined
 
     /**
      * 
-     * Profile
+     * Project
      * 
      */
+    ProjectBottomNavigation: any | undefined;
+    ProjectHomeScreen: any | undefined;
 
 
     /**

@@ -15,7 +15,8 @@ export const Colors = {
   warning: '#FDB64D',
   success: '#4BC38C',
   danger: "#D70000",
-  transparent: 'rgba(0,0,0,0)'
+  transparent: 'rgba(0,0,0,0)',
+  overlay: 'rgba(37,37,37,0.25)'
 
 };
 

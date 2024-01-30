@@ -32,9 +32,12 @@ const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'L
     const handleChangeDefault = () => {
         dispatch(changeTheme({ theme: 'default', darkMode: false }));
     }
+
     return (
         <Container>
-            <TouchableOpacity onPress={handleChangeDarkMode}>
+            <TouchableOpacity onPress={() => {
+                navigation.dispatch(StackActions.replace(MAIN_NAVIGATION));
+            }}>
                 <Text style={[Fonts.textBold, Fonts.textCenter, Fonts.textSmall]}>LoginScreen</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={handleChangeDefault}>
