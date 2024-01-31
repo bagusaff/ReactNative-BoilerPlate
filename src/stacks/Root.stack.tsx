@@ -21,18 +21,16 @@ const RootStack = () => {
 
     const navigationRef = useNavigationContainerRef();
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: colors.notification }}>
-            <NavigationContainer theme={NavigationTheme} ref={navigationRef}>
-                <Stack.Navigator
-                    initialRouteName={SPLASH_SCREEN}
-                    screenOptions={{ headerShown: false }}>
-                    <Stack.Screen name={SPLASH_SCREEN} component={SplashScreen} />
-                    <Stack.Screen name={AUTH_STACK} component={AuthStack} />
-                    <Stack.Screen name={MAIN_NAVIGATION} component={DrawerNavigation} />
-                </Stack.Navigator>
-                {/* <PipScreen /> */}
-            </NavigationContainer>
-        </SafeAreaView>
+        <NavigationContainer theme={NavigationTheme} ref={navigationRef}>
+            <Stack.Navigator
+                initialRouteName={SPLASH_SCREEN}
+                screenOptions={{ headerShown: false }}>
+                <Stack.Screen name={SPLASH_SCREEN} component={SplashScreen} />
+                <Stack.Screen name={AUTH_STACK} component={AuthStack} />
+                <Stack.Screen name={MAIN_NAVIGATION} component={DrawerNavigation} />
+            </Stack.Navigator>
+            {/* <PipScreen /> */}
+        </NavigationContainer>
     );
 };
 

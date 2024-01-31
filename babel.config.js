@@ -2,6 +2,13 @@ module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
   plugins:[
     [
+      "formatjs",
+      {
+        "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+        "ast": true
+      }
+    ],
+    [
       "module-resolver",
       {
           "root": ["./src"],
@@ -32,8 +39,8 @@ module.exports = {
               "types":"./src/types",
           }
       }
-  ],
-  'react-native-reanimated/plugin', // needs to be last
+    ],
+    'react-native-reanimated/plugin', // needs to be last
 
   ]
 };

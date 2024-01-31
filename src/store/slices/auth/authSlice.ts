@@ -6,6 +6,7 @@ const initialState: AuthState = {
     isLoggedIn: false,
     newUser: true,
     token: '',
+    selectedLanguage: 'en'
 }
 
 export const authSlice = createSlice({

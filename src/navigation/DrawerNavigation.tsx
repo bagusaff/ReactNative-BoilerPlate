@@ -1,10 +1,10 @@
-import { Text, TouchableOpacity, useWindowDimensions } from 'react-native';
+import { useWindowDimensions } from 'react-native';
 import { DrawerContentComponentProps, DrawerContentScrollView, DrawerItem, DrawerItemList, createDrawerNavigator } from '@react-navigation/drawer';
 
 import { HOME_STACK, PROJECT_STACK } from 'utils/routesConstant';
-import HomeStack from 'stacks/Home.stack';
 import useTheme from 'utils/hooks/useTheme';
-import { getHeaderTitle } from '@react-navigation/elements';
+
+import HomeStack from 'stacks/Home.stack';
 import ProjectStack from 'stacks/Project.stack';
 
 
