@@ -10,7 +10,7 @@ import Container from 'components/Container'
 import { RootStackParams } from 'utils/routes'
 import { MAIN_NAVIGATION } from 'utils/routesConstant'
 import { useDispatch } from 'react-redux'
-import { changeTheme } from 'store/theme'
+import { changeTheme } from 'store/slices/theme'
 import useTheme from 'utils/hooks/useTheme'
 
 const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'LoginScreen'>) => {

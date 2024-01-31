@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { DarkTheme, DefaultTheme } from '@react-navigation/native';
 
 import { Fonts, DefaultVariables, themes, Images } from 'theme'
-import { ThemeState } from 'store/theme';
+import { ThemeState } from 'store/slices/theme';
 import { Theme, ThemeNavigationColors, ThemeNavigationTheme, ThemeVariables } from 'types/theme';
 
 export default function () {
