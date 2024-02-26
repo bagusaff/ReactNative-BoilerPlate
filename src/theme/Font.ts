@@ -6,23 +6,23 @@ import { ThemeVariables } from 'types/theme';
 
 export default function ({ FontSize, Colors }: ThemeVariables) {
     return StyleSheet.create({
-        textTiny: {
+        sizeTiny: {
             fontSize: FontSize.tiny,
             color: Colors.textPrimary,
         },
-        textSmall: {
+        sizeSmall: {
             fontSize: FontSize.small,
             color: Colors.textPrimary,
         },
-        textRegular: {
+        sizeRegular: {
             fontSize: FontSize.regular,
             color: Colors.textPrimary,
         },
-        textLarge: {
+        sizeLarge: {
             fontSize: FontSize.large,
             color: Colors.textPrimary,
         },
-        textBold: {
+        sizeBold: {
             fontWeight: 'bold',
         },
         textUppercase: {
@@ -67,9 +67,44 @@ export default function ({ FontSize, Colors }: ThemeVariables) {
         textSecondary: {
             color: Colors.secondary,
         },
-        textLobster: {
-            fontFamily: 'lobster',
-            fontWeight: 'normal',
+        textBlue: {
+            color: Colors.blue,
+        },
+        fontBlack: {
+            fontFamily: 'Roboto-Black',
+        },
+        fontBlackItalic: {
+            fontFamily: 'Roboto-BlackItalic',
+        },
+        fontBold: {
+            fontFamily: 'Roboto-Bold',
+        },
+        fontBoldItalic: {
+            fontFamily: 'Roboto-BoldItalic',
+        },
+        fontItalic: {
+            fontFamily: 'Roboto-Italic',
+        },
+        fontLight: {
+            fontFamily: 'Roboto-Light',
+        },
+        fontLightItalic: {
+            fontFamily: 'Roboto-LightItalic',
+        },
+        fontMedium: {
+            fontFamily: 'Roboto-Medium',
+        },
+        fontMediumItalic: {
+            fontFamily: 'Roboto-MediumItalic',
+        },
+        fontRegular: {
+            fontFamily: 'Roboto-Regular',
+        },
+        fontThin: {
+            fontFamily: 'Roboto-Thin',
+        },
+        fontThinItalic: {
+            fontFamily: 'Roboto-ThinItalic',
         },
     });
 }

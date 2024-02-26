@@ -12,8 +12,20 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4220A32E8209444DA93DF699 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72AD7D6F1F6B42A08EC14B04 /* Roboto-Medium.ttf */; };
+		6149F72EE0B94F29A4444CFA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A73F17FE10D4660A087C687 /* Roboto-Light.ttf */; };
+		632F93C7BFDA4EFDA13C2659 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A944FA0A48943A9A0E73275 /* Roboto-MediumItalic.ttf */; };
+		72665CCEEFB34A93821872C3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAC30C29F0E14F32B609AEDA /* Roboto-Thin.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-OnePassProject-OnePassProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OnePassProject-OnePassProjectTests.a */; };
+		7888BD84F07D458F9A459986 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1366322A1CF450AAF5C2847 /* Roboto-BoldItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A91EBCDAE7141B4B3F19FF3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DC7BBFD8FE9473AAD7C5B61 /* Roboto-Bold.ttf */; };
+		90B38F8C1C67489E82F03C52 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 337D7524D6A947B0B597D0E9 /* Roboto-Regular.ttf */; };
+		9ACB75EE77F04C079BCADBB1 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE702EDDFFF74E61B777BBCF /* Roboto-BlackItalic.ttf */; };
+		B851E4338C9040B1AFDD4E7B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE248483AB8A4154990717E8 /* Roboto-ThinItalic.ttf */; };
+		D7ED8F0D850E45C0B2B119A4 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 145193ECBDDC4E64928B3E6A /* Roboto-LightItalic.ttf */; };
+		F10CDACBE3D940A58DADD823 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F584209FF9846C8B5C4743B /* Roboto-Black.ttf */; };
+		F83E11F92D85422790A948C0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB42ED4B38A54EECA3AB3AB4 /* Roboto-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +34,39 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "OnePassProject";
+			remoteInfo = OnePassProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* OnePassProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnePassProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* OnePassProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePassProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* OnePassProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OnePassProjectTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* OnePassProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnePassProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "OnePassProject/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "OnePassProject/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "OnePassProject/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "OnePassProject/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "OnePassProject/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OnePassProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePassProjectTests.m; sourceTree = "<group>"; };
+		0A944FA0A48943A9A0E73275 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OnePassProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePassProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OnePassProject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = OnePassProject/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OnePassProject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OnePassProject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OnePassProject/main.m; sourceTree = "<group>"; };
+		145193ECBDDC4E64928B3E6A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-OnePassProject-OnePassProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnePassProject-OnePassProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D7524D6A947B0B597D0E9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-OnePassProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePassProject.debug.xcconfig"; path = "Target Support Files/Pods-OnePassProject/Pods-OnePassProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-OnePassProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePassProject.release.xcconfig"; path = "Target Support Files/Pods-OnePassProject/Pods-OnePassProject.release.xcconfig"; sourceTree = "<group>"; };
+		5A73F17FE10D4660A087C687 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-OnePassProject-OnePassProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePassProject-OnePassProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-OnePassProject-OnePassProjectTests/Pods-OnePassProject-OnePassProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-OnePassProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnePassProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "OnePassProject/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		5F584209FF9846C8B5C4743B /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		72AD7D6F1F6B42A08EC14B04 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		7DC7BBFD8FE9473AAD7C5B61 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OnePassProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-OnePassProject-OnePassProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePassProject-OnePassProjectTests.release.xcconfig"; path = "Target Support Files/Pods-OnePassProject-OnePassProjectTests/Pods-OnePassProject-OnePassProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1366322A1CF450AAF5C2847 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AE248483AB8A4154990717E8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BE702EDDFFF74E61B777BBCF /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CAC30C29F0E14F32B609AEDA /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		EB42ED4B38A54EECA3AB3AB4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -72,7 +96,7 @@
 				00E356F21AD99517003FC87E /* OnePassProjectTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "OnePassProjectTests";
+			path = OnePassProjectTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -93,7 +117,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "OnePassProject";
+			name = OnePassProject;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -122,6 +146,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				91716CC5AC4D45A0ABA86CC4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +160,26 @@
 				00E356EE1AD99517003FC87E /* OnePassProjectTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		91716CC5AC4D45A0ABA86CC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F584209FF9846C8B5C4743B /* Roboto-Black.ttf */,
+				BE702EDDFFF74E61B777BBCF /* Roboto-BlackItalic.ttf */,
+				7DC7BBFD8FE9473AAD7C5B61 /* Roboto-Bold.ttf */,
+				A1366322A1CF450AAF5C2847 /* Roboto-BoldItalic.ttf */,
+				EB42ED4B38A54EECA3AB3AB4 /* Roboto-Italic.ttf */,
+				5A73F17FE10D4660A087C687 /* Roboto-Light.ttf */,
+				145193ECBDDC4E64928B3E6A /* Roboto-LightItalic.ttf */,
+				72AD7D6F1F6B42A08EC14B04 /* Roboto-Medium.ttf */,
+				0A944FA0A48943A9A0E73275 /* Roboto-MediumItalic.ttf */,
+				337D7524D6A947B0B597D0E9 /* Roboto-Regular.ttf */,
+				CAC30C29F0E14F32B609AEDA /* Roboto-Thin.ttf */,
+				AE248483AB8A4154990717E8 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -189,8 +234,8 @@
 			);
 			dependencies = (
 			);
-			name = "OnePassProject";
-			productName = "OnePassProject";
+			name = OnePassProject;
+			productName = OnePassProject;
 			productReference = 13B07F961A680F5B00A75B9A /* OnePassProject.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -244,6 +289,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F10CDACBE3D940A58DADD823 /* Roboto-Black.ttf in Resources */,
+				9ACB75EE77F04C079BCADBB1 /* Roboto-BlackItalic.ttf in Resources */,
+				8A91EBCDAE7141B4B3F19FF3 /* Roboto-Bold.ttf in Resources */,
+				7888BD84F07D458F9A459986 /* Roboto-BoldItalic.ttf in Resources */,
+				F83E11F92D85422790A948C0 /* Roboto-Italic.ttf in Resources */,
+				6149F72EE0B94F29A4444CFA /* Roboto-Light.ttf in Resources */,
+				D7ED8F0D850E45C0B2B119A4 /* Roboto-LightItalic.ttf in Resources */,
+				4220A32E8209444DA93DF699 /* Roboto-Medium.ttf in Resources */,
+				632F93C7BFDA4EFDA13C2659 /* Roboto-MediumItalic.ttf in Resources */,
+				90B38F8C1C67489E82F03C52 /* Roboto-Regular.ttf in Resources */,
+				72665CCEEFB34A93821872C3 /* Roboto-Thin.ttf in Resources */,
+				B851E4338C9040B1AFDD4E7B /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +494,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "OnePassProjectTests/Info.plist";
+				INFOPLIST_FILE = OnePassProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +506,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superink.onepassproject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superink.onepassproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePassProject.app/OnePassProject";
 			};
@@ -461,7 +518,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "OnePassProjectTests/Info.plist";
+				INFOPLIST_FILE = OnePassProjectTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,7 +530,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superink.onepassproject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superink.onepassproject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePassProject.app/OnePassProject";
 			};
@@ -487,8 +544,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "OnePassProject/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "OnePass Project";
+				INFOPLIST_FILE = OnePassProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OnePass Project";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,8 +556,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superink.onepassproject";
-				PRODUCT_NAME = "OnePassProject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superink.onepassproject;
+				PRODUCT_NAME = OnePassProject;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -514,8 +571,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "OnePassProject/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "OnePass Project";
+				INFOPLIST_FILE = OnePassProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "OnePass Project";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,8 +583,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.superink.onepassproject";
-				PRODUCT_NAME = "OnePassProject";
+				PRODUCT_BUNDLE_IDENTIFIER = com.superink.onepassproject;
+				PRODUCT_NAME = OnePassProject;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -566,7 +623,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -594,12 +651,14 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -637,7 +696,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -657,12 +716,14 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

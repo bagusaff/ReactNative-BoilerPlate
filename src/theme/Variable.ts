@@ -5,6 +5,7 @@
  * That allows to change them more easily later on.
  */
 
+import { scaleFont } from 'styles';
 import { ThemeNavigationColors } from 'types/theme';
 
 /**
@@ -39,10 +40,15 @@ export const NavigationColors: Partial<ThemeNavigationColors> = {
  * FontSize
  */
 export const FontSize = {
-    tiny: 14,
-    small: 16,
-    regular: 20,
-    large: 40,
+    xs: scaleFont(10),
+    tiny: scaleFont(12),
+    small: scaleFont(14),
+    regular: scaleFont(16),
+    medium: scaleFont(18),
+    large: scaleFont(20),
+    xl: scaleFont(24),
+    xxl: scaleFont(32),
+    xxxl: scaleFont(36),
 };
 
 export default {

@@ -3,6 +3,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { IntlProvider } from 'react-intl'
 import { useSelector } from 'react-redux'
+import Toast from 'react-native-toast-message'
 
 import { toastComponents } from 'components/Toast'
 
@@ -14,7 +15,6 @@ import zhLang from 'compiled-lang/zh.json'
 import idLang from 'compiled-lang/id.json'
 import msLang from 'compiled-lang/ms.json'
 import enLang from 'compiled-lang/en.json'
-import Toast from 'react-native-toast-message'
 
 const AppEntry = () => {
     const { selectedLanguage } = useSelector((state: RootState) => state.auth)

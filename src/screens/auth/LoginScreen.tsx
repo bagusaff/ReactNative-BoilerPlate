@@ -13,6 +13,7 @@ import { useDispatch } from 'react-redux'
 import { changeTheme } from 'store/slices/theme'
 import useTheme from 'utils/hooks/useTheme'
 import { useIntl } from 'react-intl'
+import TextInput from 'components/TextInput'
 
 const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'LoginScreen'>) => {
     const dispatch = useDispatch();
@@ -40,11 +41,13 @@ const Login = ({ route, navigation }: NativeStackScreenProps<RootStackParams, 'L
             <TouchableOpacity onPress={() => {
                 navigation.dispatch(StackActions.replace(MAIN_NAVIGATION));
             }}>
-                <Text style={[Fonts.textBold, Fonts.textCenter, Fonts.textSmall]}>{intl.formatMessage({ defaultMessage: 'LoginScreen' })}</Text>
+                <Text style={[Fonts.fontBold, Fonts.textCenter, Fonts.sizeSmall]}>{intl.formatMessage({ defaultMessage: 'LoginScreen' })}</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={handleChangeDefault}>
-                <Text style={[Fonts.textBold, Fonts.textCenter, Fonts.textSmall]}>{intl.formatMessage({ defaultMessage: 'Default Theme' })}</Text>
+                <Text style={[Fonts.fontBold, Fonts.textCenter, Fonts.sizeSmall]}>{intl.formatMessage({ defaultMessage: 'Default Theme' })}</Text>
             </TouchableOpacity>
+            <TextInput placeholder='Username' />
+            <TextInput type='password' placeholder='Password' />
         </Container>
     )
 }

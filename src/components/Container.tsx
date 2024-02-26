@@ -59,5 +59,6 @@ export default Container;
 const styles = StyleSheet.create({
     Container: {
         flex: 1,
+        paddingHorizontal: 16,
     },
 });
