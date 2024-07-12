@@ -15,6 +15,7 @@
 		4220A32E8209444DA93DF699 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72AD7D6F1F6B42A08EC14B04 /* Roboto-Medium.ttf */; };
 		6149F72EE0B94F29A4444CFA /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A73F17FE10D4660A087C687 /* Roboto-Light.ttf */; };
 		632F93C7BFDA4EFDA13C2659 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A944FA0A48943A9A0E73275 /* Roboto-MediumItalic.ttf */; };
+		68EC2FEBBEA340721AAE963D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 02839694A50B0034DF869B84 /* PrivacyInfo.xcprivacy */; };
 		72665CCEEFB34A93821872C3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAC30C29F0E14F32B609AEDA /* Roboto-Thin.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-OnePassProject-OnePassProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-OnePassProject-OnePassProjectTests.a */; };
 		7888BD84F07D458F9A459986 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1366322A1CF450AAF5C2847 /* Roboto-BoldItalic.ttf */; };
@@ -42,6 +43,7 @@
 		00E356EE1AD99517003FC87E /* OnePassProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePassProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* OnePassProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePassProjectTests.m; sourceTree = "<group>"; };
+		02839694A50B0034DF869B84 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = OnePassProject/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		0A944FA0A48943A9A0E73275 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* OnePassProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePassProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OnePassProject/AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				02839694A50B0034DF869B84 /* PrivacyInfo.xcprivacy */,
 			);
 			name = OnePassProject;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				90B38F8C1C67489E82F03C52 /* Roboto-Regular.ttf in Resources */,
 				72665CCEEFB34A93821872C3 /* Roboto-Thin.ttf in Resources */,
 				B851E4338C9040B1AFDD4E7B /* Roboto-ThinItalic.ttf in Resources */,
+				68EC2FEBBEA340721AAE963D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,8 +598,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -621,6 +626,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -640,6 +646,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -658,8 +666,13 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -667,8 +680,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -694,6 +708,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
@@ -706,6 +721,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -723,8 +740,13 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
